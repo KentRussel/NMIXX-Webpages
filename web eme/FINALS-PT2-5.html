@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>looping using function</title>
+  <script>
+
+  var ctr=0 
+  function timer() 
+  { 
+  ctr++ 
+  document.write("The value of ctr is "+ctr) 
+  setTimeout("timer()",1000) 
+  } 
+  </script>
+</head>
+<body onload="timer()">
+</body>
+</html>

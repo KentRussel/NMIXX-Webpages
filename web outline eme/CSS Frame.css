@@ -1,0 +1,13 @@
+#body {
+  display: flex;
+  width: 100%;
+}
+
+#list {
+  width: 20%;
+}
+
+#frame {
+  width: 1500px;
+  height: 940px;
+}
